@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=WinSCP
+Exec=env WINEPREFIX="/home/juan/.wine" wine-stable C:\\\\windows\\\\command\\\\start.exe /Unix /home/juan/.wine/dosdevices/c:/users/Public/Desktop/WinSCP.lnk
+Type=Application
+StartupNotify=true
+Comment=WinSCP: SFTP, FTP, WebDAV and SCP client
+Path=/home/juan/.wine/dosdevices/c:/Program Files (x86)/WinSCP
+Icon=772B_WinSCP.0
+StartupWMClass=winscp.exe

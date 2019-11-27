@@ -14,7 +14,7 @@ app.use(cors());
 app.use(express.static(__dirname + '/public'));
 
 
-app.post('/upload', upload.single('file'), function(req, res, next){
+app.post('/upload', upload.single('upfile'), function(req, res, next){
 
     return res.json(req.file);
 });
